@@ -37,10 +37,3 @@ The merged dataset forms a multimodal table containing both **image-derived feat
 This approach—known as **early fusion**—enables clear interpretability while linking radiological features with patient outcomes and treatment factors.
 
 ---
-
-## Environment (optional)
-
-```bash
-conda env create -f environment.yml
-conda activate cxr-pipeline
-pip install -r requirements.txt
