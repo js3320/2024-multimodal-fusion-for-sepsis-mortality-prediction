@@ -1,0 +1,15 @@
+# Example experiment config
+dataset:
+  embeddings_csv: data/embeddings.csv
+  clinical_csv: data/clinical.csv
+  join_keys: [dicom_id, subject_id, hadm_id]
+
+task:
+  name: mortality
+  target: mortality
+  features: null  # null = use all non-target columns
+
+training:
+  model: logistic_regression
+  test_size: 0.2
+  seed: 42
