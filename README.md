@@ -27,8 +27,6 @@ Review these three first:
 | **05_knn_similarity_baseline.ipynb** | K-nearest neighbor baseline for similarity-based outcome prediction | Accuracy, F1-score, confusion matrix |
 | **06_treatment_outcome_simulation.ipynb** | Simulated outcome analysis under altered treatment parameters | Simulated curves, sensitivity plots |
 | **07_time_filtering_sensitivity.ipynb** | Effect of time-window filtering on prediction performance | Before/after counts, performance delta tables |
-| **98_segmentation_exploration.ipynb** | Image segmentation and visualization experiments | Example masks, overlays |
-| **99_mimic_timeseries_pipeline_playground.ipynb** | Time-series data exploration for MIMIC-IV ICU data | Exploratory plots and summary tables |
 
 ---
 
