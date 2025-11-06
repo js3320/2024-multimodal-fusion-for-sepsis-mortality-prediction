@@ -32,7 +32,7 @@ Review these three first:
 
 ## How the Fusion Works
 
-CXR embeddings (one vector per image) are merged with tabular clinical features (one row per ICU admission) using shared identifiers such as `study_id` or `hadm_id`.  
+CXR embeddings (https://physionet.org/content/image-embeddings-mimic-cxr/1.0/) are merged with tabular clinical features (one row per ICU admission) using shared identifiers such as `study_id` or `hadm_id`.  
 The merged dataset forms a multimodal table containing both **image-derived features** and **clinical variables**, which are then fed into interpretable machine-learning models (logistic regression, KNN, LightGBM).  
 This approach—known as **early fusion**—enables clear interpretability while linking radiological features with patient outcomes and treatment factors.
 
