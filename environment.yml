@@ -1,0 +1,25 @@
+name: sepsis-multimodal
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - pip
+  - pip:
+      - Pillow
+      - google-cloud-storage
+      - imbalanced-learn
+      - lightgbm
+      - opencv-python
+      - pydicom
+      - pyswarm
+      - shap
+      - tensorflow
+      - xgboost
