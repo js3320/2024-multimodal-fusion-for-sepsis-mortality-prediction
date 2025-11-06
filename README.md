@@ -19,7 +19,7 @@ Review these three first:
 |-----------|----------|----------|
 | **01_cxr_embedding_bucketing.ipynb** | Extract and bucket chest X-ray embeddings | `embeddings.csv`, `bucket_ids.csv` |
 | **02_clinical_mortality_baseline.ipynb** | Merge embeddings with clinical data and train mortality baseline models | `fused_mortality.csv`, metrics table (ACC/AUC), ROC/PR plots |
-| **03_peep_logistic_regression.ipynb** | Logistic regression for PEEP level response analysis | Model coefficients, odds ratios, AUC plots |
+| **03_PCA+clustering.ipynb** | Logistic regression for PEEP level response analysis | Model coefficients, odds ratios, AUC plots |
 | **03a_mortality_peep_logistic_exploration.ipynb** | Exploratory variant testing for mortality & PEEP | Comparison tables of ORs, CIs, and p-values |
 | **03b_peep_logistic_alt_spec.ipynb** | Alternate specification for PEEP logistic regression | Metrics and coefficient table |
 | **04_univariate_peep_screen.ipynb** | Univariate screening of PEEP features | OR, CI, p-values per variable |
