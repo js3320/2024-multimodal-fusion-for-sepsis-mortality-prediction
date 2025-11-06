@@ -9,7 +9,7 @@ Precomputed image embeddings are merged with structured clinical variables into 
 Review these three first:
 1. **`01_cxr_embedding_bucketing.ipynb`** — prepares CXR embeddings, performs bucketing/filtering  
 2. **`02_clinical_mortality_baseline.ipynb`** — fuses embeddings with clinical data and builds a mortality prediction baseline  
-3. **`03_peep_logistic_regression.ipynb`** — analyzes PEEP ventilation settings using logistic regression and interpretable metrics
+3. **`03_PCA+clustering.ipynb`** — analyzes PEEP ventilation settings using logistic regression and interpretable metrics
 
 ---
 
