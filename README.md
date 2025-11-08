@@ -5,6 +5,14 @@ Precomputed image embeddings are merged with structured clinical variables into 
 
 ---
 
+## How the Fusion Works
+
+CXR embeddings (https://physionet.org/content/image-embeddings-mimic-cxr/1.0/) are merged with tabular clinical features (one row per ICU admission) using shared identifiers such as `study_id` or `hadm_id`.  
+The merged dataset forms a multimodal table containing both **image-derived features** and **clinical variables**, which are then fed into interpretable machine-learning models (logistic regression, KNN, LightGBM).  
+This approach—known as **early fusion**—enables clear interpretability while linking radiological features with patient outcomes and treatment factors.
+
+---
+
 ## Start Here
 Review these three first:
 1. **`01_cxr_embedding_bucketing.ipynb`** — prepares CXR embeddings, performs bucketing/filtering  
@@ -30,10 +38,4 @@ Review these three first:
 
 ---
 
-## How the Fusion Works
 
-CXR embeddings (https://physionet.org/content/image-embeddings-mimic-cxr/1.0/) are merged with tabular clinical features (one row per ICU admission) using shared identifiers such as `study_id` or `hadm_id`.  
-The merged dataset forms a multimodal table containing both **image-derived features** and **clinical variables**, which are then fed into interpretable machine-learning models (logistic regression, KNN, LightGBM).  
-This approach—known as **early fusion**—enables clear interpretability while linking radiological features with patient outcomes and treatment factors.
-
----
