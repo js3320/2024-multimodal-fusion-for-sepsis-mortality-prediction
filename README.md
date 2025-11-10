@@ -9,7 +9,8 @@ Precomputed image embeddings are merged with structured clinical variables into 
 
 CXR embeddings (https://physionet.org/content/image-embeddings-mimic-cxr/1.0/) are merged with tabular clinical features (one row per ICU admission) using shared identifiers such as `study_id` or `hadm_id`.  
 The merged dataset forms a multimodal table containing both **image-derived features** and **clinical variables**, which are then fed into interpretable machine-learning models (logistic regression, KNN, LightGBM).  
-This approach—known as **early fusion**—enables clear interpretability while linking radiological features with patient outcomes and treatment factors. **However** simple concatenation may cause information loss and clinical-level interpretability lacks. I am extending this project as my master's thesis to combine multimodal information using Variational Autoencoders (VAEs) and apply unsupervised clustering to identify clinically meaningful subtypes of ARDS patients at ICU. I thereby hope to contribute to advanced prognosis and personalized treatment strategies.
+This approach—known as **early fusion**—enables clear interpretability while linking radiological features with patient outcomes and treatment factors. 
+**However** simple concatenation may cause information loss and clinical-level interpretability lacks. I am extending this project as my master's thesis to combine multimodal information using Variational Autoencoders (VAEs) and apply unsupervised clustering to identify clinically meaningful subtypes of ARDS patients at ICU. I thereby hope to contribute to advanced prognosis and personalized treatment strategies.
 
 ---
 
